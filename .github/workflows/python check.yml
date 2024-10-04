@@ -1,5 +1,6 @@
 name: Demo Python Workflow
 on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
