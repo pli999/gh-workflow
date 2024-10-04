@@ -1,4 +1,6 @@
 on: [push]
+name: demo workflow
+run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
 
 jobs:
   build:
