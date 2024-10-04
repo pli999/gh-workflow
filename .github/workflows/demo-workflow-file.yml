@@ -1,5 +1,5 @@
 on:
-  push:
+#  push:
   workflow_dispatch:
 name: demo workflow
 run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
